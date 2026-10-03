@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="1. FC Marzahn 94 – Fußball in Marzahn-Hellersdorf. Hier findest du Kontakt und Vereinsadresse.">
+    <title>1. FC Marzahn 94 | Fußball in Marzahn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="club-brand" href="#start" aria-label="1. FC Marzahn 94 – Startseite">
+            <img class="club-logo" src="assets/club-logo.png" alt="1. FC Marzahn 94 Logo">
+        </a>
+        <nav aria-label="Hauptnavigation">
+            <a href="#start">Start</a>
+            <a href="#verein">Der Verein</a>
+            <a class="nav-contact" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="start" aria-labelledby="hero-title">
+            <div class="hero-photo" role="img" aria-label="Fußballstadion im Abendlicht"></div>
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow"><span class="eyebrow-dot"></span> BERLIN-MARZAHN · MARZAHN-HELLERSDORF</p>
+                <h1 id="hero-title">1. FC<br><span>MARZAHN</span> <b>94</b></h1>
+                <p class="hero-intro">Fußball verbindet. Marzahn ist unser Zuhause.</p>
+                <div class="hero-actions">
+                    <a class="button button-lime" href="#kontakt">Kontakt aufnehmen <span aria-hidden="true">↗</span></a>
+                    <a class="hero-text-link" href="#verein">Unser Verein <span aria-hidden="true">↓</span></a>
+                </div>
+            </div>
+            <div class="hero-bottom" aria-hidden="true">
+                <span>GEMEINSAM AM BALL</span>
+                <span class="hero-bottom-line"></span>
+                <span>FUSSBALL IN BERLIN</span>
+            </div>
+            <span class="hero-number" aria-hidden="true">94</span>
+        </section>
+
+        <section class="club-intro page-wrap" id="verein">
+            <div class="section-index"><span>01</span> DER VEREIN</div>
+            <div class="intro-main">
+                <h2>Ein Verein.<br><span>Ein Kiez.</span><br>Ein gemeinsames Spiel.</h2>
+                <div class="intro-copy">
+                    <p class="intro-lead">Hier spielt Marzahn.</p>
+                    <p>Fußball ist mehr als das Spiel auf dem Platz: gemeinsam trainieren, füreinander einstehen und die Freude am Sport teilen. Der 1. FC Marzahn 94 ist in Marzahn-Hellersdorf zuhause.</p>
+                    <a class="inline-link" href="#kontakt">Fragen zum Verein? Melde dich bei uns <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="values-band" aria-label="Vereinswerte">
+            <div class="values-inner page-wrap">
+                <div class="value-item"><span class="value-mark" aria-hidden="true">01</span><span>FUSSBALL</span></div>
+                <span class="value-divider" aria-hidden="true"></span>
+                <div class="value-item"><span class="value-mark" aria-hidden="true">02</span><span>GEMEINSCHAFT</span></div>
+                <span class="value-divider" aria-hidden="true"></span>
+                <div class="value-item"><span class="value-mark" aria-hidden="true">03</span><span>MARZAHN</span></div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="kontakt">
+            <div class="contact-inner page-wrap">
+                <div class="section-index contact-index"><span>02</span> KONTAKT</div>
+                <div class="contact-main">
+                    <div class="contact-heading">
+                        <p class="eyebrow">WIR SIND FÜR DICH DA</p>
+                        <h2>Auf dem Platz<br><span>und im Gespräch.</span></h2>
+                        <p>Du möchtest Kontakt aufnehmen? Wir freuen uns auf deine Nachricht.</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">E-MAIL</span>
+                            <a href="mailto:info@1fc-marzahn94.de">info@1fc-marzahn94.de</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">TELEFON</span>
+                            <a href="tel:0309339397">0309339397</a>
+                        </div>
+                        <div class="contact-item address-item">
+                            <span class="contact-label">VEREINSADRESSE</span>
+                            <address>Geraer Ring 30A<br>12689 Berlin<br>Marzahn-Hellersdorf</address>
+                            <a class="map-link" href="https://maps.google.com/?q=Geraer+Ring+30A,+12689+Berlin" target="_blank" rel="noopener noreferrer">Auf der Karte ansehen <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer page-wrap">
+        <a class="club-brand footer-brand" href="#start" aria-label="Zur Startseite">
+            <img class="club-logo footer-club-logo" src="assets/club-logo.png" alt="1. FC Marzahn 94 Logo">
+        </a>
+        <p>Fußball verbindet. Marzahn ist unser Zuhause.</p>
+        <a class="back-top" href="#start">Nach oben ↑</a>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const logoElement = document.querySelector('.club-logo');
+            if (!logoElement) return;
+
+            const image = new Image();
+            image.onload = () => {
+                const canvas = document.createElement('canvas');
+                const width = Math.max(700, Math.round(image.naturalWidth * 0.9));
+                const height = Math.round((image.naturalHeight * width) / image.naturalWidth);
+
+                canvas.width = width;
+                canvas.height = height;
+
+                const ctx = canvas.getContext('2d');
+                ctx.imageSmoothingEnabled = true;
+                ctx.imageSmoothingQuality = 'high';
+                ctx.filter = 'contrast(1.12) saturate(1.08) brightness(1.06)';
+                ctx.drawImage(image, 0, 0, width, height);
+
+                logoElement.src = canvas.toDataURL('image/png');
+            };
+
+            image.src = logoElement.src;
+        });
+    </script>
+</body>
+</html>
